@@ -1,0 +1,38 @@
+[
+    {
+        "id": "1",
+        "name": "Java",
+        "img": "http://cdn.differencebetween.net/wp-content/uploads/2018/02/Difference-Between-Java-and-Core-Java-768x432.png",
+        "timeRequired": 60
+    },
+    {
+        "id": "2",
+        "name": "Python",
+        "img": "https://www.freecodecamp.org/news/content/images/size/w2000/2020/05/Python-language.png",
+        "timeRequired": 90
+    },
+    {
+        "id": "3",
+        "name": "C",
+        "img": "https://www.pngfind.com/pngs/m/542-5422317_c-programming-transparent-c-logo-png-png-download.png",
+        "timeRequired": 70
+    },
+    {
+        "id": "4",
+        "name": "JavaScript",
+        "img": "https://www.logolynx.com/images/logolynx/70/70bf2aee67dbf54d5732194ea024f0c9.jpeg",
+        "timeRequired": 110
+    },
+    {
+        "id": "5",
+        "name": "Dart",
+        "img": "https://stablekernel.com/wp-content/uploads/2017/06/dart_google_banner.png",
+        "timeRequired": 80
+    },
+    {
+        "id": "6",
+        "name": "Ruby",
+        "img": "https://www.devopsschool.com/blog/wp-content/uploads/2022/03/eb9e3b7dab09358e7cf13f188f64f9f4-1536x795.png",
+        "timeRequired": 180
+    }
+]
