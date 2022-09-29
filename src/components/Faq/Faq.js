@@ -12,7 +12,7 @@ const Faq = () => {
                 <p>The key difference between props and state is that state is internal and controlled by the component itself while props are external and controlled by whatever renders the component.</p>
                 <h2>3.What does useEffect do without data load?</h2>
                 <p>The useEffect Hook allows you to perform side effects in your components. Some examples of side effects are
-                    directly updating  the DOM, and  <br /> timers. useEffect accepts two arguments. The second argument is optional.</p>
+                    directly updating  the DOM, and timers. useEffect accepts two arguments. The second argument is optional.</p>
             </div>
 
         </div>
