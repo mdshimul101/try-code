@@ -8,7 +8,7 @@ const Language = ({ language, handleAddToList }) => {
             <img src={img} alt="" />
             <div className='lang-type'>
                 <h2>{name}</h2>
-                <p><small>Time Required: {timeRequired} min</small></p>
+                <p>Time Required: {timeRequired} min</p>
                 <button onClick={() => handleAddToList(language)} className='btn-add'>
                     <p className='btn-text'>Add To List</p>
                 </button>
