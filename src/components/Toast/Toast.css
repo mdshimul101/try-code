@@ -1,0 +1,13 @@
+.activity-complete {
+    margin: 20px;
+
+}
+
+.btn-com {
+    background-color: cadetblue;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    font-weight: bold;
+    margin-top: 30px;
+}

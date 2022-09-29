@@ -1,4 +1,5 @@
 import React from 'react';
+import './Exercise.css'
 
 const Exercise = ({ time, total }) => {
     return (

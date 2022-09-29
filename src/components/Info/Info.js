@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import './Info.css'
 
-
-
 import 'react-toastify/dist/ReactToastify.css';
 import Profile from '../Profile/Profile';
 import Exercise from '../Exercise/Exercise';
+import Toast from '../Toast/Toast';
+
+
 
 const Info = ({ info }) => {
     const [time, setTime] = useState(0);
@@ -36,6 +37,8 @@ const Info = ({ info }) => {
 
 
     }, [time])
+
+
     return (
         <div className="info-container">
             <Profile></Profile>
@@ -50,6 +53,8 @@ const Info = ({ info }) => {
                 </div>
             </div>
             <Exercise total={total} time={time}></Exercise>
+            <Toast></Toast>
+
         </div>
     );
 };
