@@ -7,7 +7,6 @@ import Exercise from '../Exercise/Exercise';
 import Toast from '../Toast/Toast';
 
 
-
 const Info = ({ info }) => {
     const [time, setTime] = useState(0);
 
@@ -21,12 +20,8 @@ const Info = ({ info }) => {
     }
 
     const timeSet = (time) => {
-
-
         setTime(time);
         localStorage.setItem('time', JSON.stringify(time));
-
-
     }
     useEffect(() => {
 
@@ -37,6 +32,7 @@ const Info = ({ info }) => {
 
 
     }, [time])
+
 
 
     return (

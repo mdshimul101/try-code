@@ -10,7 +10,7 @@ const Language = ({ language, handleAddToList }) => {
                 <h2>{name}</h2>
                 <p><small>Time Required: {timeRequired} min</small></p>
                 <button onClick={() => handleAddToList(language)} className='btn-add'>
-                    <p className='btn-text'>Add To Cart</p>
+                    <p className='btn-text'>Add To List</p>
                 </button>
             </div>
 
