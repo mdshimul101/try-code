@@ -1,16 +1,22 @@
 import React, { useEffect, useState } from 'react';
 import Header from '../Header/Header';
+import Info from '../Info/Info';
 
 import Language from '../Language/Language';
 import './Activity.css';
 const Activity = () => {
     const [activities, setActivities] = useState([]);
+    const [info, setInfo] = useState([]);
 
     useEffect(() => {
         fetch('data.json')
             .then(res => res.json())
             .then(data => setActivities(data))
     }, [])
+    const handleAddToList = (activity) => {
+        const newInfo = [...info, activity];
+        setInfo(newInfo);
+    }
     return (
         <div className='activity-container'>
             <div>
@@ -19,13 +25,11 @@ const Activity = () => {
 
                     {
                         activities.map(language => <Language key={language.id}
-                            language={language}></Language>)
+                            language={language} handleAddToList={handleAddToList}></Language>)
                     }
                 </div>
             </div>
-            <div className="info-container">
-                <p>Personal Info</p>
-            </div>
+            <Info info={info}> </Info>
 
         </div>
 
