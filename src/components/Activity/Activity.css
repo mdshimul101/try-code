@@ -31,10 +31,19 @@
 @media screen and (max-width: 600px) {
     .activity-container {
         grid-template-columns: 1fr;
+        width: 90%;
+        margin: auto;
+
     }
 
     .activities-container {
         grid-template-columns: repeat(1, 1fr);
+        margin: 10px 20px;
 
+    }
+
+    .info-container {
+        width: 90%;
+        margin: auto;
     }
 }

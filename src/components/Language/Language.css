@@ -28,15 +28,31 @@
     .program {
         width: 280px;
         height: 450px;
-
         padding: 10px 10px;
         background-color: gainsboro;
     }
 }
 
 @media screen and (max-width: 480px) {
-    .header {
-        font-size: 16px;
-        /* text-align: center; */
+
+    .program {
+        width: 250px;
+        height: 400px;
+        padding: 5px 5px;
+    }
+
+    .program img {
+        width: 100%;
+        margin: auto;
+        height: 200px;
+        border-radius: 8px;
+    }
+
+    .btn-add {
+        padding: 0px;
+    }
+
+    .lang-type {
+        padding: 0px 10px;
     }
 }

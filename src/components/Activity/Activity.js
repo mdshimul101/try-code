@@ -18,8 +18,8 @@ const Activity = () => {
                 <div className="activities-container">
 
                     {
-                        activities.map(pd => <Language key={pd.id}
-                            pd={pd}></Language>)
+                        activities.map(language => <Language key={language.id}
+                            language={language}></Language>)
                     }
                 </div>
             </div>
