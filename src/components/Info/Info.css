@@ -2,6 +2,30 @@
     background-color: aliceblue;
 }
 
+.break {
+    color: cadetblue;
+    margin-top: 50px;
+    margin-left: 20px;
+
+}
+
+
+.btn-break {
+    background-color: cadetblue;
+    color: white;
+    padding: 25px 12px;
+    border: none;
+    font-weight: bold;
+
+    margin-left: 5px;
+
+    border-radius: 50%;
+}
+
+.btn-break:first-child {
+    margin-left: 0;
+}
+
 @media screen and (max-width: 600px) {
 
     .info-container {

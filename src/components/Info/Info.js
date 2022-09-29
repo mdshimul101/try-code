@@ -33,18 +33,16 @@ const Info = ({ info }) => {
 
     }, [time])
 
-
-
     return (
         <div className="info-container">
             <Profile></Profile>
             <div className="break">
                 <h2>Add A Break</h2>
-                <div>
-                    <button onClick={() => timeSet(10)} className='btn1'>10min</button>
-                    <button onClick={() => timeSet(30)} className='btn2'>30min</button>
-                    <button onClick={() => timeSet(45)} className='btn3'>45min</button>
-                    <button onClick={() => timeSet(60)} className='btn4'>60min</button>
+                <div className='btn-container'>
+                    <button onClick={() => timeSet(10)} className='btn-break'>10min</button>
+                    <button onClick={() => timeSet(30)} className='btn-break'>30min</button>
+                    <button onClick={() => timeSet(45)} className='btn-break'>45min</button>
+                    <button onClick={() => timeSet(60)} className='btn-break'>60min</button>
 
                 </div>
             </div>
